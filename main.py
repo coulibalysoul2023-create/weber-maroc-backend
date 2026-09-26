@@ -26,7 +26,7 @@ app = FastAPI(title="API Weber Maroc")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:3000",
-           "https://weber-maroc-frontend.vercel.app",],
+           "https://TON-URL-VERCEL.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
